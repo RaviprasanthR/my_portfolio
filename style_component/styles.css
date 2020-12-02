@@ -51,6 +51,8 @@ a {
 .nav {
     padding: 1rem 1rem 0rem 1rem;
     background-color: var(--off-white);
+    top:0;
+    position:sticky;
     
 }
 
