@@ -12,7 +12,9 @@
 body {
     font-family: 'Lato', sans-serif;
     max-width: 600px;
-    margin: auto;
+    margin-left:auto;
+    margin-right:auto;
+    
 }
 
 * {
@@ -100,24 +102,37 @@ header .hero {
 section {
     padding: 2rem 1rem 2rem 1rem;
 }
+#tech_1{
+    float:left;
+}
+.tech_image{
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+    float:right;
+}
+#tech_2{
+    float:right;
+}
 
 
 /** footer **/
 
 footer {
-    width: 600px;
+    width:600px;
     padding: 2rem 1rem ;
     margin-top: auto;
     background-color: var(--primary-dark);
     color: var(--white);
     
-        
 }
 
 #footer_index{
-    position:absolute;
     bottom:0;
+    position:absolute;
 }
+
+
 
 footer a {
     color: var(--white)
