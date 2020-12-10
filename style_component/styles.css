@@ -115,6 +115,10 @@ section {
     float:right;
 }
 
+article{
+    margin-top:50px;
+    margin-bottom:50px;
+}
 
 /** footer **/
 
@@ -124,12 +128,13 @@ footer {
     margin-top: auto;
     background-color: var(--primary-dark);
     color: var(--white);
+    position:absolute;
     
 }
 
 #footer_index{
     bottom:0;
-    position:absolute;
+    
 }
 
 
