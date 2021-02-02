@@ -11,70 +11,102 @@
 
 <body>
     <nav class="nav">
-        <div class="logo"><a href="/">Welcome to Ravi Prasanth's Portfolio</a></div>
-        <div>
-            <ul>
-                <li>
-                    <a href="/" class="active">
-                        HOME
-                    </a>
-
-                </li>
-                <li>
-                    <a href="/pages/projects.html">
-                        PROJECTS
-                    </a>
-
-                </li>
-                <li>
-                    <a href="/pages/blogs.html">
-                        BLOGS
-                    </a>
-
-                </li>
-            </ul>
-        </div>
+       <div class="name">
+           <strong>RAVI <span>PRASANTH</span></strong>
+       </div>
+       <div class="nav-items">
+           <ul>
+               <li><a href="#aboutme-section" class="menu-items" onclick="mypicAnimation()">About me</a></li>
+               <li><a href="#project-section" class="menu-items">Projects</a></li>
+               <li><a href="https://raviprasanthrajasekar.medium.com/" class="menu-items">Blogs</a></li>
+           </ul>
+       </div>
     </nav>
-    <main>
-        <header>
-            <img class="hero" src="/style_component/undraw_web_developer.svg" />
-            <h1> Ravi Prasanth R</h1>
-            <p>A Computer science student who gets pumped up on learning new things</p>
-        </header>
-        <section class="tech ">
-            <h1 class="tech_1"> technologies</h1>
-            <p class="tech_2">I'm familiar with HTML5, CSS3, Javascript, Python, Git and Burpsuite</p>
-            <img class="tech_image" src="/style_component/undraw_code_review_l1q9.svg" alt="image not available"/>
-        </section>
-        <section>
-            <h1>projects</h1>
-            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
-            <a class="primary-link " href="pages/projects.html">See Projects</a>
-        </section>
-        <section class="tech">
-            <h1>blogs</h1>
-            <p>
-                I am also working on some technical and non techincal blogs. Wanna read my blog? Tap the link below
-            </p>
-            <a class="primary-link" href="pages/blogs.html">Read Blogs</a>
-        </section>
-    </main>
-    <footer>
-        <div class="text-m">Let's connect socially</div>
-        <ul>
-            <li class="social_list">
-                <a href="https://twitter.com/RaviPra20964153">twitter</a>
-            </li>
-            <li class="social_list">
-                <a href="https://github.com/RaviprasanthR">github</a>
-            </li>
-            <li class="social_list">
-                <a href="https://www.linkedin.com/in/ravi-prasanth-09a889148/">linkedin</a>
-            </li>
-        </ul>
+    <div class="quote-section">
+        
+        <div class="quote-imageone">
+            
+            <img src="style_component/undraw_winners_ao2o.svg" >
+            <quote>"A dream does not become reality through magic. <br/>   It takes sweat, determination, and hard work..."</quote>
+        </div>
+    </div>
+    
 
+    <div id="aboutme-section">
+        <div class="rectangle-left" id="ani">
+            <div class="mypic">
+           <img src="style_component/Group 12.svg">
+           </div>
+        </div>
+        <div class="rectangle-right">
+            <h1>ABOUT ME</h1>
+            <p>I am a Computer Science student who is interested in Web development and Cybersecurity. I am familiar with HTML, CSS, Python, Javascript, C. I also have good knowledge in tools like Adobe Illustrator, Adobe XD, Burpsuite and Git.</p>
+        </div>
+
+    </div>
+
+    <div id="project-section">
+        <div class="heading">
+        <h1>PROJECTS</h1>
+        </div>
+        <div class="display-pane">
+            <div class="project">
+                <div class="project-content">
+                    <h3>A Visually Impaired Friendly E-Commerce Web Application <br/>( In designing phase )</h3>
+                    <p>This is a Full Stack E Commerce application that is Visually Impaired friendly built using reactJS.</p>
+                    
+                </div> 
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <h3>A Translation Application using Funtranslation API</h3>
+                    <p>This is a JavaScript Application that translates English into Minion Language.</p>
+                    <a class="link" href="https://know-the-emoji.netlify.app/">View App</a>
+                    <a class="link" href="https://github.com/RaviprasanthR/book-suggestor-app">View Source</a>
+                </div> 
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <h3>Emoji Interpreter</h3>
+                    <p>This a JavaScript application that tells the meaning of emoji when clicked or searched.</p>
+                    <a class="link" href="https://know-the-emoji.netlify.app/">View App</a>
+                    <a class="link" href="https://github.com/RaviprasanthR/book-suggestor-app">View Source</a>
+                </div> 
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <h3>File-Based Data Store</h3>
+                    <p>This is a Local File-Based Data Store Application that has CRD functionalites built using Python.</p>
+                    <a class="link" href="https://github.com/RaviprasanthR/book-suggestor-app">View Source</a>
+                </div> 
+            </div>
+            
+            
+            
+            
+        </div>
+    </div>
+
+    <footer >
+        <div class="footer-class">
+        <p>
+            Let's Connect <br/>
+            <ul>
+                <li class="social-link"><a target="_blank" href="https://github.com/RaviprasanthR" >Github</a></li>
+                <li class="social-link"><a target="_blank" href="https://github.com/RaviprasanthR" >Linkedin</a></li>
+                <li class="social-link"><a target="_blank" href="https://github.com/RaviprasanthR" >Twitter</a></li>
+                <li class="social-link"><a target="_blank" href="https://github.com/RaviprasanthR" >Instagram</a></li>
+            </ul>
+        </p>
+        </div>
     </footer>
 
 </body>
+
+<script type="text/javascript">
+    function mypicAnimation(){
+        document.getElementsByID('ani').className='mypic';
+    }
+</script>
 
 </html>
