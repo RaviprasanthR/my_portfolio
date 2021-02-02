@@ -28,6 +28,7 @@ body{
 }
 .name strong{
     color:#23F0C7;
+    font-size:2vw;
 }
 .name span{
     color:white;
@@ -51,6 +52,7 @@ body{
 .nav-items ul li a{
     text-decoration:none;
     color:white;
+    font: size 2vw;
     
 }
 
@@ -94,6 +96,7 @@ quote{
    transform:skewY(6deg);   
 }
 #aboutme-section{
+    
     max-height:92vh;
     width:100%;
     margin-top:10%;
@@ -121,7 +124,7 @@ quote{
     
 .rectangle-right{
     padding-right:5%;
-    padding-top:4%;
+    padding-top: 4%;
     background-color:white;
     margin-left:50%;
     float:right;
